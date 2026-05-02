@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Snazzy Paws Grooming and view the map location.">
+    <title>Contact | Snazzy Paws Grooming</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-wrap">
+        <a class="brand" href="index.html" aria-label="Snazzy Paws Grooming home">
+          <img src="images/logo.1.png" alt="Snazzy Paws Grooming logo">
+          <span class="visually-hidden">Snazzy Paws Grooming</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <div class="content-wrap">
+        <section class="panel page-banner" aria-labelledby="contact-title">
+          <h1 id="contact-title">Contact us</h1>
+          <p>
+            Find our map location and use the form below to send a message. This form does not currently send data.
+          </p>
+        </section>
+
+        <section class="form-layout" aria-label="Contact page layout">
+          <section class="map-card">
+            <div class="map-card-inner">
+              <h2>Map location</h2>
+              <div class="map-frame-wrap">
+                <iframe
+              class="map-frame"
+              title="Map showing Hamilton, New Zealand"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Hamilton%2C%20New%20Zealand&z=13&output=embed">
+            </iframe>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-card">
+            <h2>Send a message</h2>
+            <form aria-label="Contact form" action="#" method="post">
+              <div class="form-grid">
+                <div class="field full-width">
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" name="contact-name" type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="field full-width">
+                  <label for="contact-email">Email address</label>
+                  <input id="contact-email" name="contact-email" type="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="field full-width">
+                  <label for="phone-number">Phone number</label>
+                  <input id="phone-number" name="phone-number" type="tel" placeholder="Enter your phone number" required>
+                </div>
+                <div class="field full-width">
+                  <label for="comment">Comment</label>
+                  <textarea id="comment" name="comment" placeholder="Write your comment here" required></textarea>
+                </div>
+              </div>
+              <p><button class="button" type="submit">Submit Message</button></p>
+            </form>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-wrap">
+        <p><strong>Snazzy Paws Grooming</strong></p>
+        <p>Opening hours: Monday to Saturday, 9 am – 5 pm</p>
+      </div>
+    </footer>
+  </body>
+</html>
